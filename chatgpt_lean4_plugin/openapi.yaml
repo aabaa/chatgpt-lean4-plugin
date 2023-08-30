@@ -31,7 +31,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/getDiagnosticsResponse204'
     post:
-      operationId: postSouceCode
+      operationId: postSourceCode
       summary: Post the Lean4 source code to request Lean4 prover to make diagnoses.
       parameters:
       - in: path
